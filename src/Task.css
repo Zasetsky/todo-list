@@ -1,0 +1,33 @@
+.task {
+  padding: 15px;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task button {
+  background-color: transparent;
+  border: none;
+  color: #4a5568;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.task button:hover {
+  color: #6c1212;
+}
+
+.task button:active {
+  color: #1a202c;
+}
+
+.task-completed {
+  color: #a0aec0;
+}
+
+.task-completed span {
+  text-decoration: line-through;
+}
