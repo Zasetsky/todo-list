@@ -1,5 +1,5 @@
 import React from "react";
-import './TaskInput.css';
+import '../../assets/styles/TaskInput.css';
 
 const TaskInput = ({ value, onChange, onAdd }) => {
   return (

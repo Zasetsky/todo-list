@@ -1,5 +1,5 @@
 import React from "react";
-import './Task.css';
+import '../../assets/styles/Task.css';
 
 const Task = ({ task, onToggle, onDelete }) => {
   return (
